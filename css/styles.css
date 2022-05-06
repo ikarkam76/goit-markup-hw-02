@@ -39,7 +39,6 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 .header-logo {
     color: var(--header-secondary-logo-color);
@@ -95,7 +94,6 @@ h2 {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--secondary-title-text-color);
 }
 
