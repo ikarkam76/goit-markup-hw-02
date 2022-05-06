@@ -54,6 +54,7 @@ span {
     background-color: var(--secondary-background-color);
 }
 .footer-address {
+    font-style: normal;
     color: var(--footer-address-text-color);
 }
 .contact-footer {
@@ -79,6 +80,7 @@ span {
 /* titles and text*/
 
 .hero-title {
+    background-color: grey;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -112,13 +114,28 @@ h3 {
     text-align: center;
 }
 
+.product-name {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
 .member-position {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
 
+.product-desc {
+        font-size: 16px;
+        line-height: 1.88;
+}
+
 /* buttons */
+
+button {
+    cursor: pointer;
+}
 
 .hero-button {
 font-weight: 700;
