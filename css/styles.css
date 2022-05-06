@@ -34,6 +34,7 @@ ul {
 
 
 /* header and footer */
+
 .header-logo, .footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -78,6 +79,7 @@ span {
 
 /* titles and text*/
 
+/* цвет фона для заголовка добавлен временно для возможности видеть заголовок */
 .hero-title {
     background-color: grey;
     font-weight: 900;
