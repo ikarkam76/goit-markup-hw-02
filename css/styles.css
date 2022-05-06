@@ -18,17 +18,16 @@ body {
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
-ul {
+.list {
     list-style-type: none;
 }
 
@@ -41,14 +40,14 @@ ul {
     font-size: 26px;
     line-height: 1.19;
 }
+.logo-item {
+    color: var(--primary-logo-color);
+}
 .header-logo {
     color: var(--header-secondary-logo-color);
 }
 .footer-logo {
     color: var(--footer-secondary-logo-color);
-}
-span {
-    color: var(--primary-logo-color);
 }
 .footer {
     background-color: var(--secondary-background-color);
@@ -57,11 +56,23 @@ span {
     font-style: normal;
     color: var(--footer-address-text-color);
 }
-.contact-footer {
-    color: var(--footer-contact-text-color);
-}
 .contact-header {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
+}
+.contact-footer {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    color: var(--footer-contact-text-color);
 }
 .site-nav {
     font-weight: 500;
@@ -77,11 +88,13 @@ span {
 
 /* main content */
 
+.hero {
+    background-color: var(--secondary-background-color);
+}
+
 /* titles and text*/
 
-/* цвет фона для заголовка добавлен временно для возможности видеть заголовок */
 .hero-title {
-    background-color: grey;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -91,7 +104,7 @@ span {
     color: var(--primary-title-text-color);
 }
 
-h2 {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -99,7 +112,7 @@ h2 {
     color: var(--secondary-title-text-color);
 }
 
-h3 {
+.third-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -133,7 +146,8 @@ h3 {
 
 /* buttons */
 
-button {
+.button {
+    font-family: inherit;
     cursor: pointer;
 }
 
@@ -148,7 +162,7 @@ color: var(--secondary-title-text-color);
 .filter-button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62px;
+    line-height: 1.62;
     text-align: center;
     color: var(--secondary-title-text-color);
 }
